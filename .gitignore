@@ -1,0 +1,20 @@
+# Ignore top-level items by default
+/*
+
+# Exceptions (Files and Directories to keep)
+!/skills/
+!/README.md
+!/readme.md
+!/.gitignore
+
+# Explicit Security Ignores
+.credentials/
+*.sh
+.env*
+.DS_Store
+raw.json
+source-article.md
+
+# Python
+__pycache__/
+*.pyc
